@@ -41,4 +41,5 @@ public class Main extends Application {
 ```
 
 &emsp;&emsp;下图是运行结果
-![创建基础的javaFx程序](../img/1.baseJavaFx.png)
+
+&emsp;&emsp;![创建基础的javaFx程序](../img/1.baseJavaFx.png)
