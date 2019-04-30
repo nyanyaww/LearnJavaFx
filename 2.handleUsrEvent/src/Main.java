@@ -6,16 +6,13 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-
 public class Main extends Application implements EventHandler<ActionEvent> {
 
     private Button click_me = new Button();
 
-
     static void main(String[] args) {
         launch(args);
     }
-
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -26,7 +23,6 @@ public class Main extends Application implements EventHandler<ActionEvent> {
 
         StackPane layout = new StackPane();
         layout.getChildren().add(click_me);
-
 
         Scene wtf = new Scene(layout, 600, 800);
 
@@ -42,9 +38,7 @@ public class Main extends Application implements EventHandler<ActionEvent> {
     }
 
     /*
-    事件的监听
-    1.在这个类implements EventHandler<ActionEvent>
-    2.比如监听的对象叫a，你需要实现a.setAction(this)，这个是套路
-    3.重写方法handle，用法与swing一致
+     * 事件的监听 1.在这个类implements EventHandler<ActionEvent>
+     * 2.比如监听的对象叫a，你需要实现a.setAction(this)，这个是套路 3.重写方法handle，用法与swing一致
      */
 }

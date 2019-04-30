@@ -9,6 +9,7 @@ public class Main extends Application {
         launch(args);
     }
 
+    // TODO:实现
 
     @Override
     public void start(Stage primaryStage) throws Exception {
@@ -21,13 +22,14 @@ public class Main extends Application {
         primaryStage.show();
     }
 
+    
     /*
-    说明
-    1.你需要把Main扩展成Application
-    2.main方法里面需要launch(args)
-    3.重写start方法
-        javafx中stage相当于是一个窗口的总体框架
-                scene相当于？可能是一个个场景
-    4.还有一个StackPanel代表了布局
+    * 说明
+    * 1.你需要把Main扩展成Application
+    * 2.main方法里面需要launch(args)
+    * 3.重写start方法
+    *     javafx中stage相当于是一个窗口的总体框架
+    *             scene相当于？可能是一个个场景
+    * 4.还有一个StackPanel代表了布局
     */
 }
